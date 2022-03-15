@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - All In One </title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="/images/Capture.PNG" alt="" class="brand-logo"></a>
+            </div>
+            <nav>
+                <ul id="menu-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="product-details.html">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="/shopping-cart.html"><img src="/images/cart.png" id="cart-logo" alt=""></a>
+            <img src="/images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+
+    <!---------- cart items details ---------->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Sub Total</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="/images/buy-1.jpg" alt="">
+                        <div>
+                            <p>Red Printed T-Shirt</p>
+                            <small>Price:Rs.2500</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs.2500</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="/images/buy-2.jpg" alt="">
+                        <div>
+                            <p>Red Printed T-Shirt</p>
+                            <small>Price:Rs.2500</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs.2500</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="/images/buy-3.jpg" alt="">
+                        <div>
+                            <p>Red Printed T-Shirt</p>
+                            <small>Price:Rs.2500</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs.2500</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Sub Total</td>
+                    <td>Rs.2500</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>Rs.1500</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>Rs.4000</td>
+                </tr>
+            </table>
+        </div>
+
+
+    </div>
+
+
+    <!---------------- footer --------------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download Our App for Android and iOS Mobile Phones.</p>
+                    <div class="app-logo">
+                        <a href="https://play.google.com/store" target="_blank"><img src="/images/play-store.png" alt=""></a>
+                        <a href="https://www.apple.com/in/app-store/" target="_blank"><img src="/images/app-store.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/images/Capture.PNG" alt="">
+                    <p>our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <li>Facebook</li>
+                        </a>
+                        <a href="https://www.twitter.com" target="_blank">
+                            <li>Twitter</li>
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <li>Instagram</li>
+                        </a>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <li>Youtube</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Avyay Khaire.All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <!-- JS FOR MENU TOGGLE -->
+    <script src="/js/menutoggle.js"></script>
+
+</body>
+
+</html>
